@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class StartUp : MonoBehaviour
 {
@@ -9,6 +7,7 @@ public class StartUp : MonoBehaviour
   void Start()
   {
     this.GetComponent<MapManager>().RenderMap();
+    this.GetComponent<UnitManager>().RenderUnits();
   }
 
   // Update is called once per frame
