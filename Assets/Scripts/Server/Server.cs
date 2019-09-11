@@ -31,7 +31,7 @@ public class Server
   internal List<Unit> GetUnits()
   {
     return new List<Unit>() {
-      new Unit () { Y = 1, X = 1, Type = UnitType.Warrior },
+      new Unit () { Y = 1, X = 1, Type = UnitType.Warrior, Range = 1 },
     };
   }
 }
